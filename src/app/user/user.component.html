@@ -1,6 +1,6 @@
 <div>
-  <button (click)="onUserSelect($event)">
-    <img [src]="imagePath()" [alt]="name()" />
-    <span>{{ name() }}</span>
-  </button>
+    <button (click)="selectUser()">
+        <img [src]="imagePath()" [alt]="user().name" />
+        <span>{{ user().name }}</span>
+    </button>
 </div>
